@@ -5,7 +5,8 @@ import fetch from 'node-fetch';
 import helmet from 'helmet';
 import rateLimit from 'express-rate-limit';
 import winston from 'winston';
-import serviceAccount from '../serviceAccountKey.json' with { type: 'json' };
+
+const serviceAccount = JSON.parse(process.env.GOOGLE_CREDENTIALS);
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
