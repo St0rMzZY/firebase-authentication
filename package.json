@@ -1,0 +1,24 @@
+{
+  "name": "firebase-otp_auth",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "firebase-admin": "^13.4.0",
+    "helmet": "^8.1.0",
+    "node-fetch": "^2.7.0",
+    "winston": "^3.17.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
